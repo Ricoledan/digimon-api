@@ -5,7 +5,7 @@ Run these commands to get started
 # Run the program
 
 ```bash
-deno run main.ts
+deno run server.ts
 ```
 
 # Run the program and watch for file changes
