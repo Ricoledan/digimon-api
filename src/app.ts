@@ -15,10 +15,9 @@ const reqLogger = function (req: Request, _res: Response, next: NextFunction) {
   next();
 };
 
-
 app.use(reqLogger);
+app.use("/api", digimonRouter);
 app.get("/", (_req: Request, res: Response) => {
   res.status(200).send("デジタルワールドへようこそ!");
 });
-app.use(digimonRouter);
 export default app;
