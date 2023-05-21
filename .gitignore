@@ -1,0 +1,15 @@
+# Ignore the Deno cache
+/.deno/*
+
+# Ignore environment variables
+/.env
+
+# Ignore compiled TypeScript files (if you use TypeScript)
+/**/*.ts.js
+/**/*.ts.js.map
+
+# Ignore .DS_Store (for macOS users)
+.DS_Store
+
+.idea
+data_blob.json
