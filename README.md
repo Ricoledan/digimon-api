@@ -31,3 +31,9 @@ deno bench --allow-net
 ```bash
 deno task
 ```
+
+# Generate data
+
+```bash
+deno run -A ./scripts/generate_data.ts
+```
