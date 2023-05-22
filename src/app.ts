@@ -15,6 +15,7 @@ const reqLogger = function (req: Request, _res: Response, next: NextFunction) {
   next();
 };
 
+app.use(express.json());
 app.use(reqLogger);
 app.use("/api", digimonRouter);
 app.get("/", (_req: Request, res: Response) => {

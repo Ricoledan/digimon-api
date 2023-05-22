@@ -40,18 +40,26 @@ deno run -A ./scripts/generate_data.ts
 
 ## Roadmap
 
+### Software Development Process and Quality Assurance:
 - [ ] Error Handling
 - [ ] Add tests
 - [ ] Add benchmarks
 - [ ] Add CI/CD
+- [ ] Add Code Coverage
+
+### Back-end Development and Infrastructure:
 - [ ] Add Database
+- [ ] Add Postman Collection
 - [ ] Add Authentication
 - [ ] Add Authorization
 - [ ] Add Rate Limiting
 - [ ] Add Caching
+
+### Observability and Performance Monitoring:
 - [ ] Add Logging
 - [ ] Add Monitoring
 - [ ] Add Tracing
+
+### API Development:
 - [ ] Add Pagination
 - [ ] Support GraphQL
-- [ ] Add Code Coverage
