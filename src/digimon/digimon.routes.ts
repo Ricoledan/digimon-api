@@ -12,4 +12,16 @@ router.get("/digimon/:name", (req: Request, res: Response) => {
     return DigimonController.getOneDigimon(req, res);
 });
 
+router.post("/digimon", (req: Request, res: Response) => {
+    return DigimonController.addOneDigimon(req, res);
+});
+
+router.patch("/digimon/:name", (req: Request, res: Response) => {
+    return DigimonController.updateOneDigimon(req, res);
+});
+
+router.delete("/digimon/:name", (req: Request, res: Response) => {
+    return DigimonController.deleteOneDigimon(req, res);
+});
+
 export default router;

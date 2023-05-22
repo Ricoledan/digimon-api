@@ -49,6 +49,7 @@ deno run -A ./scripts/generate_data.ts
 
 ### Back-end Development and Infrastructure:
 - [ ] Add Database
+- [ ] Add Postman Collection
 - [ ] Add Authentication
 - [ ] Add Authorization
 - [ ] Add Rate Limiting
