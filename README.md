@@ -54,3 +54,4 @@ deno run -A ./scripts/generate_data.ts
 - [ ] Add Tracing
 - [ ] Add Pagination
 - [ ] Support GraphQL
+- [ ] Add Code Coverage
