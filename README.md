@@ -37,3 +37,20 @@ deno task
 ```bash
 deno run -A ./scripts/generate_data.ts
 ```
+
+## Roadmap
+
+- [ ] Error Handling
+- [ ] Add tests
+- [ ] Add benchmarks
+- [ ] Add CI/CD
+- [ ] Add Database
+- [ ] Add Authentication
+- [ ] Add Authorization
+- [ ] Add Rate Limiting
+- [ ] Add Caching
+- [ ] Add Logging
+- [ ] Add Monitoring
+- [ ] Add Tracing
+- [ ] Add Pagination
+- [ ] Support GraphQL
