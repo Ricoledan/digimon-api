@@ -1,39 +1,57 @@
 # Digimon API
 
-Run these commands to get started
+## Commands
 
-# Run the program
+Run the program
 
 ```bash
-deno run server.ts
+deno task start
 ```
 
-# Run the program and watch for file changes
+Run the program and watch for file changes
 
 ```bash
 deno task dev
 ```
 
-# Run the tests
+Run the tests
 
 ```bash
-deno test
+deno task test
 ```
 
-# Run the benchmarks
+Run the benchmarks
 
 ```bash
-deno bench --allow-net
+deno task bench
 ```
 
-# Check the list of available tasks
+Check the list of available tasks
 
 ```bash
 deno task
 ```
 
-# Generate data
+Generate data
 
 ```bash
 deno run -A ./scripts/generate_data.ts
 ```
+
+## Roadmap
+
+- [ ] Error Handling
+- [ ] Add tests
+- [ ] Add benchmarks
+- [ ] Add CI/CD
+- [ ] Add Database
+- [ ] Add Authentication
+- [ ] Add Authorization
+- [ ] Add Rate Limiting
+- [ ] Add Caching
+- [ ] Add Logging
+- [ ] Add Monitoring
+- [ ] Add Tracing
+- [ ] Add Pagination
+- [ ] Support GraphQL
+- [ ] Add Code Coverage
