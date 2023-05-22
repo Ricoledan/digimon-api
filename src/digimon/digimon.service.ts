@@ -5,8 +5,8 @@ class DigimonService {
         return demoData.digimon;
     }
 
-    getOneDigimon(id: number) {
-        return demoData.digimon.find((d) => d.id === id) || null;
+    getOneDigimonByName(name: string) {
+        return demoData.digimon.find((d) => d.name === name) || null;
     }
 }
 

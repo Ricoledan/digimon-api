@@ -8,7 +8,7 @@ router.get("/digimon", (_req: Request, res: Response) => {
     return DigimonController.getDigimon(res);
 });
 
-router.get("/digimon/:id", (req: Request, res: Response) => {
+router.get("/digimon/:name", (req: Request, res: Response) => {
     return DigimonController.getOneDigimon(req, res);
 });
 

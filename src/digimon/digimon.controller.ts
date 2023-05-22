@@ -20,8 +20,8 @@ class DigimonController {
 
     async getOneDigimon(req: Request, res: Response) {
         try {
-            const id = Number(req.params.id);
-            const digimon = await this.digimonService.getOneDigimon(id);
+            const name = req.params.name
+            const digimon = await this.digimonService.getOneDigimonByName(name);
 
             if (digimon) {
                 return res.status(200).json(digimon);
